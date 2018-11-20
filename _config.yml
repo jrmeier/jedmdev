@@ -2,7 +2,7 @@
 title: Jed Meier
 description: >
     You found me.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/new" # the subpath of your site, e.g. /blog/
 url: "https://jedmeier.com" # the base hostname & protocol for your site
 
 author:
