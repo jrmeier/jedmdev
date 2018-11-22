@@ -9,7 +9,7 @@ pagination:
   per_page: 3
   permalink: "/page/:num/"
 
-comments: true
+comments: false
 
 source: source
 destination: _site
@@ -24,7 +24,7 @@ keywords: "Jed Meier, Jed, Meier, Des Moines, Software Engineer, blog, web"
 url: http://jedmeier.com
 baseurl: ""
 
-#google_analytics: UA-52446115-1
+google_analytics: UA-47420504-10
 #repo: http://github.com/nandomoreirame/end2end
 #disqus_shortname: "nandothemes"
 #disqus_site_shortname: "nandothemes"
