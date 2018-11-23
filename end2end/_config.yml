@@ -21,7 +21,7 @@ sass:
 title: Jed Meier
 description: "Jed Meier "
 keywords: "Jed Meier, Jed, Meier, Des Moines, Software Engineer, blog, web"
-url: http://jedmeier.com
+url: https://jedmeier.com
 baseurl: ""
 
 google_analytics: UA-47420504-10
@@ -32,8 +32,8 @@ google_analytics: UA-47420504-10
 # Author settings
 author:
   name: Jed Meier
-  job: Full-Stack Engineer
-  bio: "Effienct, sensible design, and always on the hunt for a new project. Currently at <a href='https://denimlabs.com'>Denim</a>."
+  job: Full-Stack Software Engineer
+  bio: "Automate everything @<a href='https://denimlabs.com'>Denim</a>."
   thumb: /images/author.jpg
   email: nandomoreira.me@gmail.com
   url: https://jedmeier.com

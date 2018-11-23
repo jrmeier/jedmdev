@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a self-taught full-stack software engineer currently living and working in Des Moines, at [Denim Labs](https://denimlabs.com). We where build software to automate digital marketing for large organizations. Since 2016, I've been fortunate enough to be involved in some early stage start-ups, which focused on automated chat. When I'm not working, I spend my time reading, at the gym, and  doing home renovation projects with my brother-in-law.
+I'm a self-taught full-stack software engineer currently living and working in Des Moines, at [Denim Labs](https://denimlabs.com). Where we build software to automate digital marketing for large organizations. Since 2016, I've been fortunate enough to be involved in some early stage start-ups, which focused on automated chat. When I'm not working, I spend my time reading, at the gym, and  doing home renovation projects with my brother-in-law.
 
 # Experience
 
