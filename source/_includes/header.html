@@ -8,7 +8,6 @@
     </label>
     <nav class="navbar">
       <ul>
-        <li><a href="{{ '/' | prepend: site.baseurl }}" title="Home">Home</a></li>
         {% for item in site.navbar %}
           <li><a href="{{ '/' | prepend: site.baseurl }}{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
         {% endfor %}
