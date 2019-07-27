@@ -5,7 +5,7 @@ highlighter: pygments
 plugins: [jekyll-paginate-v2]
 
 pagination:
-  enabled: true
+  enabled: false
   per_page: 3
   permalink: "/page/:num/"
 
@@ -36,7 +36,7 @@ author:
   bio: "Automate everything @<a href='https://denimlabs.com'>Denim</a>."
   thumb: /images/author.jpg
   email: nandomoreira.me@gmail.com
-  url: https://jedmeier.com
+  url: https://jedm.dev
   github: https://github.com/jrmeier
   #twitter: https://twitter.com/umdevux
   #facebook: https://facebook.com/umdevux
@@ -44,8 +44,8 @@ author:
 
 # navbar pages
 navbar:
-  - slug: about
-    title: About
+  - slug: resume
+    title: Resume
   - slug: impossible-list
     title: Impossible List
 
