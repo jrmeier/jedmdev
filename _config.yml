@@ -22,7 +22,7 @@ title: Jed Meier
 description: "Jed Meier "
 keywords: "Jed Meier, Jed, Meier, Des Moines, Software Engineer, blog, web"
 url: https://jrmeier.github.io
-baseurl: "/jedmdev"
+baseurl: "/"
 
 google_analytics: UA-47420504-10
 #repo: http://github.com/nandomoreirame/end2end
