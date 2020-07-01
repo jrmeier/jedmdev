@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jed Meier</title>
+    <description>Jed Meier </description>
+    <link>https://jrmeier.github.iohttps://jedm.dev/</link>
+    <atom:link href="https://jrmeier.github.iohttps://jedm.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 01 Jul 2020 14:10:42 -0500</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2020 14:10:42 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
+    
+  </channel>
+</rss>
