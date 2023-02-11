@@ -22,10 +22,11 @@ title: Jed Meier
 description: "Jed Meier "
 keywords: "Jed Meier, Jed, Meier, Des Moines, Software Engineer, blog, web"
 url: https://jrmeier.github.io
-baseurl: "https://jedm.dev"
+# baseurl: "https://jedm.dev"
+baseUrl: "http://localhost:4000"
 
-google_analytics: UA-47420504-10
-#repo: http://github.com/nandomoreirame/end2end
+google_analytics: G-01CEWEYG00
+repo: http://github.com/jrmeier/jedmdev
 #disqus_shortname: "nandothemes"
 #disqus_site_shortname: "nandothemes"
 
@@ -33,12 +34,12 @@ google_analytics: UA-47420504-10
 author:
   name: Jed Meier
   job: Full-Stack Software Engineer
-  bio: "Automate everything @<a href='https://denimlabs.com'>Denim</a>."
+  bio: "Automate everything @<a href='https://denimsocial.com'>Denim Social</a>."
   thumb: /images/author.jpg
-  email: nandomoreira.me@gmail.com
+  email: mail@jedm.dev
   url: https://jedm.dev
   github: https://github.com/jrmeier
-  #twitter: https://twitter.com/umdevux
+  # twitter: https://twitter.com/umdevux
   #facebook: https://facebook.com/umdevux
   linkedin: https://linkedin.com/in/jedrmeier
 
@@ -48,6 +49,8 @@ navbar:
     title: Resume
   - slug: impossible-list
     title: Impossible List
+  - slug: fast-trade
+    title: Fast Trade
 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
 
