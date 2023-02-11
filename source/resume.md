@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-I'm a self-taught full-stack software engineer currently living and working in the Des Moines area, at [Denim Social](https://denimsocial.com). Where we build software to automate digital marketing for large organizations. Since 2016, I've been fortunate enough to be involved in some early stage start-ups, which focused on automated chat. When I'm not working, I spend my time reading, hanging with my fiance and dog, or in the kitchen cooking.
+I'm a self-taught full-stack software engineer currently living and working in the Des Moines area, at [Denim Social](https://denimsocial.com), where we build software to automate digital marketing for large organizations. When I'm not programming, I spend my time reading, hanging with my fiance and dog, or in the kitchen cooking.
 
 ## Skills
 
@@ -31,6 +31,7 @@ I'm a self-taught full-stack software engineer currently living and working in t
 
 * AWS
 * IBM Cloud
+* Google Cloud
 
 ## Other
 
@@ -99,11 +100,9 @@ I'm a self-taught full-stack software engineer currently living and working in t
 * Developed APIs working directly with our data science teams by integrating from expirimental to production
 * Agile
 
-## Head of Product
+### Sodima Solutions - September 2016 - September 2017
 
-### Sodima Solutions
-
-September 2016 - September 2017
+#### Head of Product
 
 I headed up our main product, which was a cognitive framework, that allowed us to easily design conversations in ways that didn't suck. Our solution was a scalable architecture that allowed non-technical people to build a conversational interface that could extract information, anticipate responses, and provide responses not explicitly programmed from the end user. This allowed us to build a profile which made it possible to continue conversations and always have responses ready.
 
@@ -119,7 +118,7 @@ I headed up our main product, which was a cognitive framework, that allowed us t
 
 ### Bachelor Of Science / May 2018
 
-Managment Information Systems - Data Analytics
+Management Information Systems - Data Analytics
 
 # Volunteer and Awards
 
@@ -134,4 +133,4 @@ Managment Information Systems - Data Analytics
 ## Royal Family Kids Camp / Counselor 2012 - 2015
 
 * Week long faith-based summer camp for underprivileged children
-* Spent 22 hours/day pari with two children in the foster system doing activities and crafts, but also being a friend and role model
+* Spent 22 hours/day paired with two children in the foster system doing activities and crafts, but also being a friend and role model
