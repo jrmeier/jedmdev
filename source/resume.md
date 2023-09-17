@@ -43,7 +43,7 @@ I'm a self-taught full-stack software engineer currently living and working in t
 
 ### [Denim Social](https://denimsocial.com) | St. Louis, MO (Remote)
 
-#### Full-Stack Software Engineer - September 2020 - Present
+#### Full-Stack Software Engineer - September 2020 - August 2023
 
 *"Publishing, advertising, and compliance software for financial services companies."*
 

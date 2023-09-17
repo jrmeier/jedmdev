@@ -8,7 +8,6 @@ date: 2022-03-26
 
 ## Fast Trade
 
----
 
 ### Disclaimer
 
@@ -45,6 +44,3 @@ I have another project that uses fast-trade for the same stuff, but manages live
 !["Fast Trade trader screen as of March 2021"](/images/FastTradeMarch_2021Trader.gif)
 
 Videos:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PNuWPCG-P2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wTW4D52s67w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
