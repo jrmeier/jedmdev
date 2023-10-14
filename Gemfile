@@ -27,4 +27,5 @@ group :jekyll_plugins do
   gem "jekyll-compose"
   gem "kramdown"
   gem "kramdown-parser-gfm"
+  gem "bundler","1.17.2"
 end
