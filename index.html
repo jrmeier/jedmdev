@@ -1,74 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe | Software Engineer</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jed Meier — Engineer & Founder</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Subtle custom tweaks */
+    body {
+      font-feature-settings: "ss01" 1, "ss02" 1;
+    }
+    .dot {
+      width: 0.4rem;
+      height: 0.4rem;
+      border-radius: 9999px;
+    }
+  </style>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Hi, I'm Jed</h1>
-            <p>Software Engineer based in Denver</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+<body class="bg-gray-950 text-slate-100 antialiased">
+  <!-- Top bar -->
+  <header class="sticky top-0 z-20 border-b border-slate-800 bg-gray-950/90 backdrop-blur">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <div class="dot bg-emerald-400"></div>
+        <span class="text-xs uppercase tracking-[0.25em] text-slate-400">Jed&nbsp;Meier</span>
+      </div>
+      <nav class="hidden sm:flex items-center space-x-6 text-sm text-slate-300">
+        <a href="#about" class="hover:text-emerald-400 transition-colors">About</a>
+        <a href="#experience" class="hover:text-emerald-400 transition-colors">Experience</a>
+        <a href="#projects" class="hover:text-emerald-400 transition-colors">Projects</a>
+        <a href="#contact" class="hover:text-emerald-400 transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 pt-10 pb-16 space-y-16">
+    <!-- Hero -->
+    <section id="about" class="space-y-8">
+      <div class="space-y-4">
+        <p class="text-xs uppercase tracking-[0.25em] text-slate-400">Engineer · Founder · System Thinker</p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-slate-50">
+          Hi, I’m Jed.<br class="hidden sm:block">
+          <span class="text-emerald-400">I build lean, scalable systems.</span>
+        </h1>
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
+          Full-stack engineer & founding builder working across product, infra, and data.
+          I’ve taken products from 0→1, shipped event-driven backends on AWS,
+          and delivered&nbsp;~100k survey sessions for under $100/month using highly optimized serverless architecture.
+        </p>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-[minmax(0,2fr),minmax(0,1.4fr)]">
+        <div class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-gradient-to-br from-slate-950 to-slate-900">
+          <h2 class="text-xs font-semibold tracking-[0.2em] text-slate-400 uppercase mb-3">Now</h2>
+          <p class="text-sm text-slate-200">
+            Founding Engineer at <span class="font-medium text-emerald-400">SurveyLoop</span>,
+            building survey infrastructure and analytics for financial-services orgs.
+            Previously led cost-optimization and AI-driven features at
+            <span class="font-medium">Denim Social</span>.
+          </p>
+          <p class="mt-3 text-xs text-slate-400">
+            Based in Summit County, Colorado · happy in the intersection of trading, infra, and product.
+          </p>
         </div>
-    </header>
 
-    <main>
-        <section id="about">
-            <div class="container">
-                <h2>About</h2>
-                <p>
-                    I specialize in building full-stack web applications using modern technologies like React, Node.js, MongoDB,
-
-                    I am passionate about creating products that provide a great user experience and help make people's lives easier.</p>
-            </div>
-        <section id="resume">
-            <div class="container">
-                <h2>Resume</h2>
-                <p>Download my <a href="resume.pdf">resume</a>.</p>
-            </div>
-        </section>
-
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="project">
-                    <h3>Fast Trade</h3>
-                    <p></p>
-                </div>
-                <div class="project">
-                    <h3>Project Title 2</h3>
-                    <p>Description of the project. What problem it solves, technologies used, etc.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>Email: john.doe@example.com</p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 John Doe</p>
+        <div class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950">
+          <h3 class="text-xs font-semibold tracking-[0.2em] text-slate-400 uppercase mb-3">Stack</h3>
+          <div class="flex flex-wrap gap-2 text-[11px]">
+            <span class="px-2.5 py-1 rounded-full border border-slate-700 text-slate-100">Python</span>
+            <span class="px-2.5 py-1 rounded-full border border-slate-700 text-slate-100">TypeScript / Node</span>
+            <span class="px-2.5 py-1 rounded-full border border-slate-700 text-slate-100">React</span>
+            <span class="px-2.5 py-1 rounded-full border border-slate-700 text-slate-100">FastAPI / Flask</span>
+            <span class="px-2.5 py-1 rounded-full border border-slate-700 text-slate-100">Postgres / MongoDB</span>
+            <span class="px-2.5 py-1 rounded-full border border-slate-700 text-slate-100">Redis</span>
+            <span class="px-2.5 py-1 rounded-full border border-slate-700 text-slate-100">AWS · Serverless</span>
+            <span class="px-2.5 py-1 rounded-full border border-slate-700 text-slate-100">Docker</span>
+          </div>
+          <a
+            href="Resume.pdf"
+            class="inline-flex items-center mt-4 text-xs font-medium text-emerald-400 hover:text-emerald-300">
+            Download résumé
+            <span class="ml-1.5 text-[0.6rem]">↗</span>
+          </a>
         </div>
-    </footer>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="space-y-6">
+      <div class="flex items-baseline justify-between gap-4">
+        <h2 class="text-sm font-semibold tracking-[0.25em] uppercase text-slate-400">Experience</h2>
+        <p class="text-xs text-slate-500">7+ years shipping production software</p>
+      </div>
+
+      <div class="space-y-5">
+        <!-- SurveyLoop -->
+        <article class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <div>
+              <h3 class="text-sm font-semibold text-slate-50">Founding Engineer</h3>
+              <p class="text-xs text-slate-400">SurveyLoop · Remote</p>
+            </div>
+            <p class="text-[11px] text-slate-500">Sep 2023 – Present</p>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-300">
+            <li>• Built the product from 0→1 using TypeScript, MongoDB, and Serverless Framework.</li>
+            <li>• Designed and maintained a lean AWS architecture delivering ~100k survey sessions for &lt;$100/month.</li>
+            <li>• Own core data models, integrations, and deployment pipelines across the stack.</li>
+          </ul>
+        </article>
+
+        <!-- Allocore -->
+        <article class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <div>
+              <h3 class="text-sm font-semibold text-slate-50">Lead Software Engineer</h3>
+              <p class="text-xs text-slate-400">Allocore · Hybrid</p>
+            </div>
+            <p class="text-[11px] text-slate-500">Oct 2024 – May 2025</p>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-300">
+            <li>• Built “core” software used as a base for multiple projects and new initiatives.</li>
+            <li>• Developed a callback-handling framework adopted across legacy codebases.</li>
+            <li>• Expanded internal documentation and improved DevEx across teams.</li>
+          </ul>
+        </article>
+
+        <!-- FieldSync -->
+        <article class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <div>
+              <h3 class="text-sm font-semibold text-slate-50">Full-Stack Software Developer</h3>
+              <p class="text-xs text-slate-400">FieldSync · Hybrid</p>
+            </div>
+            <p class="text-[11px] text-slate-500">Aug 2023 – Oct 2024</p>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-300">
+            <li>• Led integrations between existing databases and third-party services.</li>
+            <li>• Built document workflows that generate Word docs from raw data.</li>
+            <li>• Introduced engineering standards that improved communication and time-to-production.</li>
+          </ul>
+        </article>
+
+        <!-- Denim Social -->
+        <article class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <div>
+              <h3 class="text-sm font-semibold text-slate-50">Full-Stack Software Engineer</h3>
+              <p class="text-xs text-slate-400">Denim Social (formerly Denim Labs) · Remote</p>
+            </div>
+            <p class="text-[11px] text-slate-500">May 2018 – Aug 2023</p>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-300">
+            <li>• Led development of a new analytics feature with an event-driven Node/AWS Lambda backend.</li>
+            <li>• Dropped “cost per post” from ~$2.10 to ~$0.10 as usage scaled.</li>
+            <li>• Shipped multiple AI-driven features and introduced GraphQL to the team.</li>
+          </ul>
+        </article>
+
+        <!-- Early roles -->
+        <article class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <div>
+              <h3 class="text-sm font-semibold text-slate-50">Earlier Experience</h3>
+              <p class="text-xs text-slate-400">Hy-Vee · Gain Compliance</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-300 text-xs">
+            <li>• Implemented grocery delivery flows and checkout integrations as e-commerce surged during COVID-19.</li>
+            <li>• Migrated Python 2 systems to Python 3 and optimized reporting pipelines.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="space-y-6">
+      <div class="flex items-baseline justify-between gap-4">
+        <h2 class="text-sm font-semibold tracking-[0.25em] uppercase text-slate-400">Projects</h2>
+        <p class="text-xs text-slate-500">Stuff I tinker with after hours</p>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        <article class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950 flex flex-col justify-between">
+          <div>
+            <h3 class="text-sm font-semibold text-slate-50">Fast&nbsp;Trade</h3>
+            <p class="mt-2 text-xs text-slate-300">
+              Open-source low-code backtesting library & platform for algorithmic trading strategies.
+              Focused on fast experimentation, clean data pipelines, and realistic slippage/fee modeling.
+            </p>
+          </div>
+          <div class="mt-3 flex items-center justify-between text-[11px] text-slate-500">
+            <span>Python · Postgres · Redis</span>
+          </div>
+        </article>
+
+        <article class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950 flex flex-col justify-between">
+          <div>
+            <h3 class="text-sm font-semibold text-slate-50">SurveyLoop Infra</h3>
+            <p class="mt-2 text-xs text-slate-300">
+              Serverless survey and analytics stack delivering six-figure session counts on a three-figure bill.
+              Tuned for bursty traffic, resilience, and observability.
+            </p>
+          </div>
+          <div class="mt-3 flex items-center justify-between text-[11px] text-slate-500">
+            <span>AWS · Serverless · MongoDB</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="space-y-5">
+      <h2 class="text-sm font-semibold tracking-[0.25em] uppercase text-slate-400">Contact</h2>
+      <div class="border border-slate-800 rounded-2xl p-4 sm:p-5 bg-slate-950 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div class="space-y-1 text-sm">
+          <p class="text-slate-200">Open to interesting problems in infra, trading, and product.</p>
+          <p class="text-slate-400 text-xs">Best way to reach me is email or GitHub.</p>
+        </div>
+        <div class="flex flex-wrap gap-3 text-xs">
+          <a href="mailto:web@jedm.dev" class="px-3 py-1.5 rounded-full border border-slate-700 hover:border-emerald-400 hover:text-emerald-300 transition-colors">
+            web@jedm.dev
+          </a>
+          <a href="https://www.linkedin.com/in/jedmeier" class="px-3 py-1.5 rounded-full border border-slate-700 hover:border-emerald-400 hover:text-emerald-300 transition-colors">
+            LinkedIn
+          </a>
+          <a href="https://github.com/jrmeier" class="px-3 py-1.5 rounded-full border border-slate-700 hover:border-emerald-400 hover:text-emerald-300 transition-colors">
+            @jrmeier
+          </a>
+        </div>
+      </div>
+      <p class="text-[11px] text-slate-500 text-center mt-4">
+        Iowa State University · 2018
+      </p>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-900 py-6">
+    <div class="max-w-4xl mx-auto px-4 flex items-center justify-between text-[11px] text-slate-500">
+      <span>&copy; 2025 Jed Meier</span>
+    </div>
+  </footer>
 </body>
-<script>
-    console.log('Hello, world!');
-</script>
 </html>
